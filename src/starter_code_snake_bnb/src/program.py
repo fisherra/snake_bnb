@@ -4,7 +4,7 @@ import program_hosts
 import data.mongo_setup
 
 def main():
-    mongo_setup.global_init()
+    data.mongo_setup.global_init()
 
     print_header()
 
